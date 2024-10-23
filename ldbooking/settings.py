@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+CSRF_TRUSTED_ORIGINS=["https://8000-danielbaig32-project4-jaxo3ndeagn.ws-eu116.gitpod.io"]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=ac+3gzit2l$+9@l8muf-!rei20-=9m#z*%mtt2s8e%t*vg7%)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*","https://8000-danielbaig32-project4-jaxo3ndeagn.ws-eu116.gitpod.io"]
 
 
 # Application definition
